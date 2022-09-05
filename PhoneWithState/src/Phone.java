@@ -27,6 +27,7 @@ public class Phone {
     // or use setState
     public void goToSilentState() {
         currentState = new SilentState(this);
+
     }
 
     void turnVolumeUp() {
